@@ -51,8 +51,6 @@ ansible-galaxy init jenkins
 roles/jenkins/tasks/main.yaml
 
 create yaml file to call jenkins role
-
----
 - hosts: localhost
   become: true
   roles:
